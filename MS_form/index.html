@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediaSoft project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__block">
+        <div class="logo">
+          <a href="#" class="logo_img">
+            <img src="img/logo.svg" alt="logo" />
+          </a>
+        </div>
+        <div class="burger-menu">
+          <a href="#" class="burger-menu__button">
+            <span class="burger-menu__lines"></span>
+          </a>
+
+          <nav class="burger-menu__nav">
+            <details>
+              <summary class="burger-menu__summary-1">About us</summary>
+              <ul class="burger-list">
+                <li class="burger-menu-el">
+                  <a href="#section-1" class="burger-menu__link"
+                    >Search articles</a
+                  >
+                </li>
+                <li class="burger-menu-el">
+                  <a href="#section-2" class="burger-menu__link"
+                    >Popular articles</a
+                  >
+                </li>
+                <li class="burger-menu-el">
+                  <a href="#section-3" class="burger-menu__link"
+                    >All articles</a
+                  >
+                </li>
+                <li class="burger-menu-el">
+                  <a href="#section-4" class="burger-menu__link">Contacts</a>
+                </li>
+              </ul>
+            </details>
+
+            <details>
+              <summary class="burger-menu__summary">Follow us</summary>
+              <ul class="burger-list">
+                <li class="burger-menu-el">
+                  <a
+                    href="https://www.instagram.com/"
+                    class="burger-menu__link"
+                    target="_blanc"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="burger-menu-el">
+                  <a
+                    href="www-linkedin.com"
+                    class="burger-menu__link"
+                    target="_blanc"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li class="burger-menu-el">
+                  <a
+                    href="https://www.facebook.com/"
+                    class="burger-menu__link"
+                    target="_blanc"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="burger-menu-el">
+                  <a
+                    href="https://vk.com/"
+                    class="burger-menu__link"
+                    target="_blanc"
+                    >Vk</a
+                  >
+                </li>
+              </ul>
+            </details>
+
+            <details>
+              <summary class="burger-menu__summary">More info</summary>
+              <ul class="burger-list">
+                <li class="burger-menu-el">
+                  <a href="#section-1" class="burger-menu__link"
+                    >Information block 1</a
+                  >
+                </li>
+                <li class="burger-menu-el">
+                  <a href="#section-1" class="burger-menu__link"
+                    >Information block 2</a
+                  >
+                </li>
+                <li class="burger-menu-el">
+                  <a href="#section-1" class="burger-menu__link"
+                    >Information block 3</a
+                  >
+                </li>
+                <li class="burger-menu-el">
+                  <a href="#section-1" class="burger-menu__link"
+                    >Information block 4</a
+                  >
+                </li>
+                <li class="burger-menu-el">
+                  <a href="#section-1" class="burger-menu__link"
+                    >Information block 5</a
+                  >
+                </li>
+                <li class="burger-menu-el">
+                  <a href="#section-1" class="burger-menu__link"
+                    >Information block 6</a
+                  >
+                </li>
+                <li class="burger-menu-el">
+                  <a href="#section-1" class="burger-menu__link"
+                    >Information block 7</a
+                  >
+                </li>
+              </ul>
+            </details>
+          </nav>
+
+          <div class="burger-menu__overlay"></div>
+        </div>
+      </div>
+    </header>
+
+    <section id="section-1" class="head-section">
+      <div class="head-content">
+        <h1 class="head-section__header">Contact us</h1>
+        <p class="head-section__paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </section>
+
+    <section class="feedback-section">
+      <div class="feedback-top">
+        <div class="feedback-section__contacts">
+          <div class="feedback-section__contacts-img"></div>
+          <div class="feedback-section__container">
+            <h3 class="feedback-section__address">ADDRESS</h3>
+            <p class="feedback-section__paragraph">
+              Id convallis placerat sit sed duis id amet volutpat quam a,
+              pharetra.
+            </p>
+            <h3 class="feedback-section__phone">PHONE</h3>
+            <a
+              href="tel:+62-812-7313-4321"
+              class="feedback-section__phone-number-1"
+              >+62-812-7313-4321</a
+            >
+            <a
+              href="tel:+62-817-000-1234"
+              class="feedback-section__phone-number-2"
+              >+62-817-000-1234</a
+            >
+            <h3 class="feedback-section__phone">ONLINE SERVICE</h3>
+            <a
+              href="https:www.afrianska.com"
+              class="feedback-section__webpage-1"
+              >www.afrianska.com</a
+            >
+            <a
+              href="https:hello.afrian@gmail.com"
+              class="feedback-section__webpage-2"
+              >hello.afrian@gmail.com</a
+            >
+          </div>
+        </div>
+        <div class="feedback-section__form">
+          <form
+            action="https://jsonplaceholder.typicode.com/posts"
+            autocomplete="on"
+            method="POST"
+            class="feedback-section__form-container"
+          >
+            <h4 class="feedback-section__header">Send us a message</h4>
+            <div class="feedback-section__input-container">
+              <label class="feedback-section__subheaders" for="name"
+                >Name</label
+              >
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                class="feedback-section__inputs feedback-section__name-subheader"
+              ></input>
+            </div>
+
+            <div class="feedback-section__input-container">
+              <label class="feedback-section__subheaders " for="email"
+                >Email</label
+              >
+              <input class="feedback-section__inputs feedback-section__email-subheader" type="email" name="email" placeholder="Your Email" />
+            </div>
+
+            <div class="feedback-section__input-container">
+              <label class="feedback-section__subheaders feedback-section__text-subheader" for="text"
+                >Message</label
+              >
+              <textarea name="text" placeholder="Your Message" class="feedback-section__inputs feedback-section__text-container"></textarea>
+            </div>
+
+            <div>
+              <button class="feedback-section__button">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="feedback-secton__how-to-find">
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/195/ulyanovsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Ульяновск</a><a href="https://yandex.ru/maps/195/ulyanovsk/?feedback=map%2Fedit&feedback-context=map.context&indoorLevel=3&ll=48.396018%2C54.319757&utm_medium=mapframe&utm_source=maps&z=19.4" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUJf-RhoA" width="940" height="480" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+      </div>
+    </section>
+
+    <section id="section-4" class="footer">
+      <div class="footer_container">
+        <div class="footer_first_container">
+          <div class="footer_info">
+            <h4 class="footer_header">Intersted to work with our team?</h4>
+            <p class="footer_paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <button class="footer_button">Let’s Talk</button>
+        </div>
+        <div class="footer_second_container">
+          <div class="footer_contacts">
+            <div class="first_column_header">
+              <img src="img/footer_logo.svg" alt="logo" />
+              <h5 class="footer_second_header">Afrianska</h5>
+            </div>
+
+            <ul class="footer_data">
+              <li class="footer_elements">
+                <p class="footer_letters">A.</p>
+                <p class="footer_elements_space">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </li>
+              <li class="footer_elements">
+                <p class="footer_letters">T.</p>
+                <a class="footer_elements_space" href="tel:+6281273134321"
+                  >+62-812-7313-4321</a
+                >
+              </li>
+              <li class="footer_elements">
+                <p class="footer_letters">E.</p>
+                <a
+                  href="mailto:hello.afrian@gmail.com"
+                  class="footer_elements_space"
+                  >hello.afrian@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer_abous-us-data">
+            <h5 class="footer_third_header">About US</h5>
+            <ul class="footer_about">
+              <li class="footer_about_item">
+                <a class="footer_about_item_link" href="" target="blank_"
+                  >About</a
+                >
+              </li>
+              <li class="footer_about_item">
+                <a class="footer_about_item_link" href="" target="blank_"
+                  >What We Do</a
+                >
+              </li>
+              <li class="footer_about_item">
+                <a class="footer_about_item_link" href="" target="blank_"
+                  >Project</a
+                >
+              </li>
+              <li class="footer_about_item">
+                <a class="footer_about_item_link" href="" target="blank_"
+                  >How It Work With Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer_social-media-data">
+            <h5 class="footer_third_header">Follow US</h5>
+            <ul class="footer_social">
+              <li class="footer_social_item">
+                <a
+                  class="footer_social_item__link"
+                  href="https://www.instagram.com/"
+                  target="blank_"
+                  >Instagram</a
+                >
+              </li>
+              <li class="footer_social_item">
+                <a
+                  class="footer_social_item__link"
+                  href="https://www.facebook.com/"
+                  target="blank_"
+                  >Facebook</a
+                >
+              </li>
+              <li class="footer_social_item">
+                <a
+                  class="footer_social_item__link"
+                  href="https://www.linkedin.com/"
+                  target="blank_"
+                  >LinkedIn</a
+                >
+              </li>
+              <li class="footer_social_item">
+                <a
+                  class="footer_social_item__link"
+                  href="https://www.youtube.com/"
+                  target="blank_"
+                  >Youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer_copyrights">2019 © Afrianska. All rights reserved.</p>
+      </div>
+    </section>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
